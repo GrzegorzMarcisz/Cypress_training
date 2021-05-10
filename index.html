@@ -20,8 +20,8 @@
                     <input type="text" placeholder="Type something here...">
                 </div>
                 <div class="buttons-wrapper">
-                    <button class="dont_click">Do not click me!</button>
-                    <button class="click">Click me!</button>
+                    <button id="dont_click" class="dont_click">Do not click me!</button>
+                    <button id="click" class="click">Click me!</button>
                 </div>
             </div>
         </div>
@@ -29,5 +29,22 @@
             <img class="hero-image" src="./Assets/Saly-13.png" alt="person">
         </div>
     </div>
+
+    <div id="error" class="modal-container error">
+        <div class="modal">
+            <img class="modal-img" src="./Assets/Cross.png" alt="">
+            <h2>ERROR!</h2>
+            <button id ="close_error" class="close">Close</button>
+        </div>
+    </div>
+
+    <div id="success" class="modal-container success">
+        <div class="modal">
+            <img class="modal-img" src="./Assets/Tick.png" alt="">
+            <h2>SUCCESS!</h2>
+            <button id ="close_success" class="close">Close</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
