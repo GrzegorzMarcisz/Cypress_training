@@ -1,0 +1,126 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(to right bottom, #041330, #3d2409) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-left: 18rem;
+    margin-right: 18rem; */
+}
+
+header {
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    padding-top: 2rem;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 4rem 0rem 4rem;
+}
+
+h1 {
+    color: #F3F3F3;
+    font-size: 5.75rem;
+    line-height: 130%;
+}
+
+.content-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem 4rem;
+}
+
+.left-column {
+    color: white;
+    margin-right: 2rem;
+}
+
+.hero-image {
+    min-height: 550px;
+    height: 70vh;
+}
+
+input {
+    font-family: Montserrat;
+    height: 60px;
+    width: 600px;
+    border: 2px solid #F3F3F3;
+    border-radius: 16px;
+    background-color: transparent;
+    padding: 1rem 1.25rem;
+    color: #F3F3F3;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 16px;
+    border: 2px solid black;
+    padding: 16px 60px;
+    cursor: pointer;
+    color: #F3F3F3;
+    background-color: transparent;
+    line-height: 50%;
+}
+
+
+.dont_click {
+    color: #FFD792;
+    border-color: #FFD792;
+    transition: background 0.2s;
+    
+
+}
+
+.dont_click:hover {
+    color: #041330;
+    background: #ffe2b0;
+}
+
+.dont_click:active {
+    border-color: #d89520;
+}
+
+.click {
+    color: #8bc1ff;
+    border-color: #8bc1ff;
+    transition: background 0.2s;
+}
+
+.click:hover {
+    color: #041330;
+    background: #8bc1ff;;
+}
+
+.click:active {
+    border-color: #317ed6;
+}
+
