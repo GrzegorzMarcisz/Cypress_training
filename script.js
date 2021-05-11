@@ -4,9 +4,6 @@ const modal_success = document.getElementById('success');
 const modal_error = document.getElementById('error');
 const close_success = document.getElementById('close_success');
 const close_error = document.getElementById('close_error');
-const value = document.getElementById('value')
-
-
 
 
 click.addEventListener('click', () => {
@@ -16,7 +13,7 @@ click.addEventListener('click', () => {
     if (iniputValue.length > 0){
         modalValue.innerHTML = iniputValue
     } else {
-        modalValue.innerHTML = "&nbsp"
+        modalValue.innerHTML = "..."
     }
 
 
