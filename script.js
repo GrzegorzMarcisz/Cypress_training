@@ -10,8 +10,17 @@ const value = document.getElementById('value')
 
 
 click.addEventListener('click', () => {
-    document.getElementById('result').innerHTML = "&nbsp"+document.getElementById('value').value+"&nbsp";
-    modal_success.classList.add('show')
+    let iniputValue = document.getElementById('value').value;
+    let modalValue = document.getElementById('result')
+
+    if (iniputValue.length > 0){
+        modalValue.innerHTML = iniputValue
+    } else {
+        modalValue.innerHTML = "&nbsp"
+    }
+
+
+    modal_success.classList.add('show');
 })
 
 dont_click.addEventListener('click', () => {
