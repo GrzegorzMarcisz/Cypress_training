@@ -17,7 +17,8 @@ body {
 }
 
 header {
-    font-family: Jost;
+    font-family: 'Jost';
+    letter-spacing: 2px;
     font-size: 1.25rem;
     font-weight: 300;
     color: white;
@@ -49,8 +50,9 @@ h1 {
 }
 
 .hero-image {
-    min-height: 500px;
-    height: 60vh;
+    max-width: 30vw;
+    max-height: 60vh;
+    /* height: 50vh; */
 }
 
 input {
@@ -189,6 +191,7 @@ p {
     border-radius: 1rem;
     color: #8bc1ff;
     font-size: 1.5rem;
+    font-weight: 500;
     max-width: 600px;
     max-height:120px;
     overflow: hidden;
